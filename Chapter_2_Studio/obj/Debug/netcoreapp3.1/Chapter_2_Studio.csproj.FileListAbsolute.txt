@@ -1,0 +1,13 @@
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.exe
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.deps.json
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.runtimeconfig.json
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.runtimeconfig.dev.json
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.dll
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\bin\Debug\netcoreapp3.1\Chapter_2_Studio.pdb
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.csprojAssemblyReference.cache
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.AssemblyInfoInputs.cache
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.AssemblyInfo.cs
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.csproj.CoreCompileInputs.cache
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.dll
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.pdb
+C:\Users\68vette\Desktop\LC101\C Sharp\Chapter_2_Studio\Chapter_2_Studio\obj\Debug\netcoreapp3.1\Chapter_2_Studio.genruntimeconfig.cache
