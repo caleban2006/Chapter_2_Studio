@@ -4,12 +4,21 @@ using System.Text;
 
 namespace Chapter_2_Studio
 {
-    public class Circle
+    class Circle
     {
-        public static void GetCircle()
+        public static double GetArea(double radius)
         {
+            return Math.Round(Math.PI * Math.Pow(radius, 2), 3);
+        }
 
-                       
+        public static double GetDiameter(double radius)
+        {
+            return Math.Round((2 * radius), 3);
+        }
+
+        public static double GetCircumference(double radius)
+        {
+            return Math.Round((2 * Math.PI * radius), 3);
         }
     }
 }

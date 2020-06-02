@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Dynamic;
+using System.Runtime.InteropServices;
 
 namespace Chapter_2_Studio
 {
@@ -7,27 +8,33 @@ namespace Chapter_2_Studio
     {
         public static void Main(string[] args)
         {
-            
-            //Console.WriteLine("Enter a radius of a circle:");
+            bool isNum = true;
+            int radius = 0;
+            do
+            {
+                Console.WriteLine("Enter a radius of a circle:");
+                string userInput = Console.ReadLine();
+                isNum = Int32.TryParse(userInput, out radius);
+                radius ++;
+                } while (radius < 0);        
+                if (isNum == true)
+                {
+                    Console.WriteLine($"The area of this circle is: {Circle.GetArea(radius)}");
+                    Console.WriteLine($"The circumference this circle is: {Circle.GetCircumference(radius)}");
+                    Console.WriteLine($"The diameter this circle is: {Circle.GetDiameter(radius)}");
 
-            //string userInput = Console.ReadLine();
-            //double radius = double.Parse(userInput);
-            //double area = Math.Round(Math.PI * Math.Pow(radius, 2), 3);
-            //double circumference = Math.Round((2 * Math.PI * radius), 3);
-            //double diameter = Math.Round((2 * radius), 3);
+                    Console.WriteLine("Please enter the miles per gallon that your vehicle uses:");
 
-            //Console.WriteLine($"The area of this circle is: {area}");
-            //Console.WriteLine($"The circumference this circle is: {circumference}");
-            //Console.WriteLine($"The diameter this circle is: {diameter}");
+                    string mpgUserInput = Console.ReadLine();
+                    double mpg = double.Parse(mpgUserInput);
+                    double gasUsed = Math.Round(Circle.GetCircumference(radius) / mpg, 3);
 
-            //Console.WriteLine("Please enter the miles per gallon that your vehicle uses:");
-
-            //string mpgUserInput = Console.ReadLine();
-            //double mpg = double.Parse(mpgUserInput);
-            //double gasUsed = Math.Round(circumference / mpg, 3);
-
-            //Console.WriteLine($"You would use {gasUsed} gallons of gas!");
-
+                    Console.WriteLine($"You would use {gasUsed} gallons of gas!");
+                }
+                else
+                {
+                    Console.WriteLine("ERROR! INVALID ENTRY!");
+                }
         }
     }
 }
